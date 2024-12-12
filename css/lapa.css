@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+}
+.lokasi{
+    mix-blend-mode: multiply;
+}
+.icon{
+    display: flex;
+    margin-top: auto;
+}
+.icon::after{
+    content:"082221784150";
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+}
+.lokasi{
+    display: flex;
+}

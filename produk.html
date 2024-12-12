@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>Toko Rejeki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link rel="stylesheet" href="css/produk.css">
+    <link rel="stylesheet" href="css/fakeLoader.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+ </head>
+ <body>
+</head>
+<header>
+<body class="bg-cover bg-center" style="background-image: url(gambar/bg.jfif);">
+    <div class="loader"></div>
+    <div class="bg-red-700 text-white py-2 px-4">
+        <nav class="flex justify-between">
+            <div class="flex space-x-4">
+                <a href="lapa.html" class="hover:underline">Home</a>
+                <a href="tentang.html" class="hover:underline">Tentang</a>
+                <a href="lokasi.html" class="hover:underline">Lokasi</a>
+                <a href="Produk.html" class="hover:underline">Produk</a>
+                <div style="position: absolute; top: 8px; left: 900px;">
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+  </div>
+  <div class="buy">
+    <div class="top">
+      <h3>Check out</h3>
+        <img src="close-icon.png" alt="" width="20px" class="button-buy">
+      </a>
+    </div>
+    <input type="text" placeholder="NAMA">
+    <input type="text" placeholder="ALAMAT">
+    <input type="tel" placeholder="NOMOR TELEPON">
+    <label for="">pilih metode pembayaran</label>
+    <select name="metode pembayaran" id="metode pembayaran">
+      <option value="cod">COD</option>
+      <option value="transfer">transfer</option>
+    </select>
+    <p>Total : Rp<span id="price">0</span></p>
+    <input style="cursor: pointer;" onclick="href='#'" type="button" id="tombol-beli" value="beli">
+  </div>    
+  <div class="content">
+   <div class="product-grid">
+    <div class="product" data-price="80.000">
+     <img alt="Beras Cap Rojo Lele 5KG" height="200" src="rojolele.jpeg" width="200"/>
+     <p>
+      BERAS CAP ROJO LELE 5KG
+     </p>
+     <p>
+      Rp 80.000
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    <div class="product" data-price="72.000">
+     <img alt="Beras Semar 5KG" height="200" src="beras semar.jpeg" width="200"/>
+     <p>
+      BERAS SEMAR 5KG
+     </p>
+     <p>
+      Rp 72.000
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    <div class="product" data-price="23.000">
+     <img alt="Kacang Hijau Import" height="200" src="kacang ijo.jpeg" width="200"/>
+     <p>
+      KACANG HIJAU IMPORT
+     </p>
+     <p>
+      Rp 23.000/Kg
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    <div class="product" data-price="18.000">
+     <img alt="Ketan" height="200" src="beras ketan.jpeg" width="200"/>
+     <p>
+      BERAS KETAN
+     </p>
+     <p>
+      Rp 18.000/Kg
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    <div class="product" data-price="72.000">
+     <img alt="Beras Cap Dua Ikan 5KG" height="200" src="dua ikan.jpeg" width="200"/>
+     <p>
+      BERAS CAP DUA IKAN 5KG
+     </p>
+     <p>
+      Rp 72.000
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    <div class="product" data-price="14.000">
+     <img alt="Beras" src="beras.jpeg" style="height: 310px; width: 250px;"/>
+     <p>
+      BERAS
+     </p>
+     <p>
+      Rp 14.000/KG
+     </p>
+     <button class="button-buy" onclick="location.href='#' ">Beli</button>
+    </div>
+    </div>
+   </div>
+  </div>
+  <div class="fakeLoader"></div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/fakeLoader.js"></script>
+
+<script>
+  $(document).ready(function () {
+      $.fakeLoader({
+          bgColor: 'silver',
+          spinner:"spinner5"
+      });
+  });
+</script>
+    </script>
+    <script src="produk.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+ </body>
+</html>

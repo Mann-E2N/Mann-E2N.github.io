@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="css/fakeLoader.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login">
+      <form action="lapa.html">
+        <h1>Login</h1>
+        <hr>
+        <br>
+        <label for="">email</label>
+        <input type="text" placeholder="example@gmail.com">
+        <label for="">Password</label>
+        <input type="password" placeholder="password">
+        <button>Login</button>
+        <p>
+          belum punya akun ? <a href="akun.html">Buat</a>
+        </p>
+      </form>
+    </div>
+       <div class="right">
+            <img class="gambar"src="gambar/beras.png" alt="width 300px">
+       </div>
+  </div>
+  <div class="fakeLoader"></div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/fakeLoader.js"></script>
+
+<script>
+  $(document).ready(function () {
+      $.fakeLoader({
+          bgColor: 'silver',
+          spinner:"spinner5"
+      });
+  });
+</script>
+</body>
+</html>

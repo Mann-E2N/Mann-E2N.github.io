@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.lokasi{
+    mix-blend-mode: multiply;
+}
+.icon{
+    display: flex;
+    margin-top: auto;
+}
+.icon::after{
+    content:"082221784150";
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+}
+.lokasi{
+    display: flex;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar .logo{
+    font-size: 24px;
+}
+.content {
+    background-image: url(gambar/bgberas.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.product-grid button {
+    background: #0000009d;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+}
+.product {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product p {
+    margin: 10px 0;
+}
+.nav {
+    text-align: left;
+    position: relative;
+}
+div {
+    text-align: center
+}
+
+.buy{
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 100;
+    display: grid;
+    top: -100%;
+    right: 35%;
+    padding:30px 90px;
+    gap: 25px;
+    height: auto;
+    width: 450px;
+    transition: 0.5s ease-in-out;
+  }
+  .top img{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+  }
+  .buy.active{
+    top: 0;
+  }
+  .buy input{
+    border: #fff;
+    border-bottom: 0.5px solid #000;
+    background-color: transparent;
+  }
+  .buy select{
+    border: none;
+    background-color: transparent;
+  }
+  .buy select:focus{
+    outline: none;
+  }
+  .buy #tombol-beli{
+    border: 1px solid #7e0c17;
+    border-radius: 20px;
+    background-color: #7e0c17;
+    color: #fff;
+  }
+  .buy input:focus{
+    outline: none;
+  }
+  .buy{
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: 100;
+  display: grid;
+  top: -100%;
+  right: 35%;
+  padding:30px 90px;
+  gap: 25px;
+  height: auto;
+  width: 450px;
+  transition: 0.5s ease-in-out;
+}
+.top a {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: pointer;
+  margin-left: 200px;
+
+
+}
+.buy.active{
+  top: 0;
+}
+.buy input{
+  border: #fff;
+  border-bottom: 0.5px solid #0f0c0c;
+  background-color: transparent;
+}
+.buy select{
+  border: none;
+  background-color: transparent;
+}
+.buy select:focus{
+  outline: none;
+}
+.buy #tombol-beli{
+  border: 1px solid #7e0c17;
+  border-radius: 20px;
+  background-color: #7e0c17;
+  color: #fff;
+}
+.buy input:focus{
+  outline: none;
+}

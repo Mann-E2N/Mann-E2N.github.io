@@ -1,0 +1,17 @@
+*,
+::after
+::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.containe{
+    display: grid;
+    place-items: center;
+    padding-block: clamp(5rem, 7vw, 7.5rem);
+    height: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    inline-size: 100%;
+    line-height: calc(1.4 * 1em);
+}

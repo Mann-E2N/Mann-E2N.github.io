@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+header{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.navbar .active{
+  background-color: rgb(92, 61, 14); 
+}
+
+#wrapper{
+  display: flex;
+}
+
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+
+aside{
+  width: 200px;
+  margin: 0 auto;
+}

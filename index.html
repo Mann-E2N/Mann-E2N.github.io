@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="landingpage.css" />
+    <link rel="stylesheet" href="/css/fakeLoader.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <div class="isi">
+        <div class="text">
+          <h1>TOKO BERAS REJEKI</h1>
+          <p>
+            toko beras terbaik yang menyediakan <br />
+            berbagai macam beras untuk anda
+          </p>
+        </div>
+        <div class="button-beli">
+          <a href="login.html"><input type="button" value="Masuk" /></a>
+        </div>
+      </div>
+      <div class="gambar">
+        <img src="berass-removebg-preview.png" alt="beras" />
+      </div>
+      <div class="footer">
+        <img src="kayu.jpeg" alt="papan" width="100vh"/>
+      </div>
+    </div>
+    
+    </div>
+    <div class="fakeLoader"></div>
+      <script src="homepage.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/js/fakeLoader.js"></script>
+      <script>
+          $(document).ready(function () {
+              $.fakeLoader({
+                  bgColor: 'silver',
+                  spinner:"spinner5"
+              });
+          });
+      </script>
+  </body>
+</html>
